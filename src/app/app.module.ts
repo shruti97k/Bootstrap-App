@@ -7,12 +7,14 @@ import { ListComponent } from './list/list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputComponent } from './input/input.component';
 import { MaterialModule } from 'src/MaterialModule';
+import { MenubarComponent } from './component/menubar/menubar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     //ListComponent,
-    InputComponent
+    InputComponent,
+    MenubarComponent
   ],
   imports: [
     BrowserModule,
