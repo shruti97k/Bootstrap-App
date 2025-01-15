@@ -7,6 +7,11 @@
     <button routerlink=""  mat-button>Home</button>
     <button routerlink="input" mat-button>Input</button>
     <button routerlink="autocomplete"  mat-button>Autocomplete</button>
+    <button mat-raised-button color="accent">Sign Up</button>
+    <button (click)="badgevisibility()" mat-icon-button>
+        <mat-icon [matBadgeHidden]="badgevisible" matBadge="15" matBadgeSize="small" matBadgeColor="warn">home</mat-icon>
+    </button>
+    
 </mat-toolbar>
 
 <router-outlet></router-outlet>
