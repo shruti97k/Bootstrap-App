@@ -3,12 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { ListComponent } from './list/list.component';
 import { AutocompleteComponent } from './component/autocomplete/autocomplete.component';
 import { InputComponent } from './input/input.component';
+import { HomeComponent } from './component/home/home.component';
 
 const routes: Routes = [
-  {path:"",component:ListComponent},
-  {path:"list", component:ListComponent},
-  {path:"autocomplete", component:AutocompleteComponent},
-  {path:"input", component:InputComponent}
+  // {path:"",component:ListComponent},
+  // {path:"list", component:ListComponent},
+  {path:"", component:HomeComponent},
+  {path:"input", component:InputComponent},
+  {path:"autocomplete", component:AutocompleteComponent}
+  
 
 ];
 
