@@ -8,13 +8,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputComponent } from './input/input.component';
 import { MaterialModule } from 'src/MaterialModule';
 import { AutocompleteComponent } from './component/autocomplete/autocomplete.component';
+import { MenubarComponent } from './component/menubar/menubar.component';
+import { HomeComponent } from './component/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    //ListComponent,
+    ListComponent,
     InputComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    MenubarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +29,6 @@ import { AutocompleteComponent } from './component/autocomplete/autocomplete.com
     MaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
