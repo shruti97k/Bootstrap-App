@@ -5,6 +5,7 @@ import { AutocompleteComponent } from './component/autocomplete/autocomplete.com
 import { InputComponent } from './input/input.component';
 import { HomeComponent } from './component/home/home.component';
 import { CardComponent } from './component/card/card.component';
+import { SliderComponent } from './component/slider/slider.component';
 
 const routes: Routes = [
   // {path:"",component:ListComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:"input", component:InputComponent},
   {path:"autocomplete", component:AutocompleteComponent},
   {path:"card", component:CardComponent},
+  {path:"slider", component:SliderComponent},
   
 
   
