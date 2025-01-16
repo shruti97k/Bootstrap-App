@@ -9,6 +9,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -23,7 +24,8 @@ import {MatListModule} from '@angular/material/list';
         MatMenuModule,
         MatBadgeModule,
         MatSidenavModule,
-        MatListModule
+        MatListModule,
+        MatCardModule
     ]
 })
 
