@@ -10,6 +10,7 @@ import { MaterialModule } from 'src/MaterialModule';
 import { AutocompleteComponent } from './component/autocomplete/autocomplete.component';
 import { MenubarComponent } from './component/menubar/menubar.component';
 import { HomeComponent } from './component/home/home.component';
+import { CardComponent } from './component/card/card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './component/home/home.component';
     InputComponent,
     AutocompleteComponent,
     MenubarComponent,
-    HomeComponent
+    HomeComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
