@@ -10,7 +10,7 @@ import {MatBadgeModule} from '@angular/material/badge';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
-
+import {MatSliderModule} from '@angular/material/slider';
 
 
 @NgModule({
@@ -25,7 +25,8 @@ import {MatCardModule} from '@angular/material/card';
         MatBadgeModule,
         MatSidenavModule,
         MatListModule,
-        MatCardModule
+        MatCardModule,
+        MatSliderModule
     ]
 })
 

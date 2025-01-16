@@ -11,6 +11,8 @@ import { AutocompleteComponent } from './component/autocomplete/autocomplete.com
 import { MenubarComponent } from './component/menubar/menubar.component';
 import { HomeComponent } from './component/home/home.component';
 import { CardComponent } from './component/card/card.component';
+import { SliderComponent } from './component/slider/slider.component';
+ 
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CardComponent } from './component/card/card.component';
     AutocompleteComponent,
     MenubarComponent,
     HomeComponent,
-    CardComponent
+    CardComponent,
+    SliderComponent
+  
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,8 @@ import { CardComponent } from './component/card/card.component';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
