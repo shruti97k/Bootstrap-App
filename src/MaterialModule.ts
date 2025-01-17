@@ -14,6 +14,12 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
+import {MatDatepickerModule} from "@angular/material/datepicker"
+import {MatNativeDateModule} from "@angular/material/core"
+import {MatRadioModule} from "@angular/material/radio"
+import {MatCheckboxModule} from "@angular/material/checkbox"
+import {MatDialogModule} from "@angular/material/dialog"
+
 
 
 
@@ -33,9 +39,12 @@ import {MatSortModule} from '@angular/material/sort';
         MatSliderModule,
         MatTableModule,
         MatSortModule,
-        MatPaginatorModule
-
-
+        MatPaginatorModule,
+        MatDialogModule,
+        MatCheckboxModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatRadioModule
     ]
 })
 
