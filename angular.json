@@ -68,7 +68,7 @@
               "browserTarget": "Bootstrap-app:build:production"
             },
             "development": {
-              "browserTarget": "Bootstrap-app:build:development"
+              "browserTarget": "Bootstrap-app:build:development" 
             }
           },
           "defaultConfiguration": "development"

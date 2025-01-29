@@ -251,5 +251,40 @@
       "phone": "",
       "status": true
     }
+  ],
+  "associate":[
+    {
+      "id":1,
+      "name":"Ravi",
+      "address":[]
+    },
+    {
+      "id":2,
+      "name":"Ramvi",
+      "address":[]
+    },
+    {
+      "id":3,
+      "name":"Ravni",
+      "address":[]
+    }
+  ],
+  "country": [
+    {
+      "code": "India",
+      "name": "India"
+    },
+    {
+      "code": "Australia",
+      "name": "Australia"
+    },
+    {
+      "code": "SouthAfrica",
+      "name": "SouthAfrica"
+    },
+    {
+      "code": "England",
+      "name": "England"
+    }
   ]
 }
