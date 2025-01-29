@@ -1,0 +1,17 @@
+
+
+
+    <h mat-dialog-title>{{inputdata.title}}</h>
+    <div mat-dialog-content>
+        <h3>Customer Name : <b>{{custdata.name}}</b></h3>
+        <h3>Customer Email : <b>{{custdata.email}}</b></h3>
+        <h3>Customer Phone : <b>{{custdata.phone}}</b></h3>
+        <h3>Customer Status : <b>{{custdata.status}}</b></h3>
+    </div>
+    <div mat-dialog-actions>
+        <button (click)="closepopup()" mat-raised-button color="warn">Close</button>
+        <!-- <button [mat-dialog-close]="closemessage" mat-raised-button color="accent">Cancel</button> -->
+    </div>
+    
+    
+    
