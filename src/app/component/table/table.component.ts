@@ -6,6 +6,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatDialog } from '@angular/material/dialog';
 import { PopupComponent } from '../popup/popup.component';
+import { UserdetailComponent } from '../userdetail/userdetail.component';
 
 @Component({
   selector: 'app-table',
@@ -43,8 +44,8 @@ export class TableComponent {
     const value = (data.target as HTMLInputElement).value;
     this.dataSource.filter = value;
   }
-  Openpopup(code: any, title: any) {
-    var _popup = this.dialog.open(PopupComponent, {
+  Openpopup(code: any, title: any,component:any) {
+    var _popup = this.dialog.open(component, {
       width: '40%',
       enterAnimationDuration: '1000ms',
       exitAnimationDuration: '1000ms',
@@ -60,9 +61,14 @@ export class TableComponent {
     });
   }
   editcustomer(code: any) {
-    this.Openpopup(code, 'edit customer');
+    
+    this.Openpopup(code, 'Edit Customer',PopupComponent);
   }
   addcustomer(){
-    this.Openpopup(0,'add customer');
+    this.Openpopup(0,'Add Customer',PopupComponent);
+  }
+  detailcustomer(code:any){
+    
+    this.Openpopup(code,'Customer`s Details',UserdetailComponent);
   }
 }

@@ -10,6 +10,7 @@ import { TableComponent } from './component/table/table.component';
 import { FormdesignComponent } from './component/formdesign/formdesign.component';
 import { PopupComponent } from './component/popup/popup.component';
 import { AssociateComponent } from './component/associate/associate.component';
+import { UserdetailComponent } from './component/userdetail/userdetail.component';
 
 const routes: Routes = [
   // {path:"",component:ListComponent},
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path:"table", component:TableComponent},
   {path:"form",component:FormdesignComponent},
   {path:"popup", component:PopupComponent},
-  {path:'associate',component:AssociateComponent}
+  {path:'associate',component:AssociateComponent},
+ // {path:'userdetail',component:UserdetailComponent}
 
 ];
 

@@ -16,8 +16,9 @@ import { TableComponent } from './component/table/table.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormdesignComponent } from './component/formdesign/formdesign.component';
 import { PopupComponent } from './component/popup/popup.component';
-import { ShoesCardComponent } from './component/shoes-card/shoes-card.component';
+
 import { AssociateComponent } from './component/associate/associate.component';
+import { UserdetailComponent } from './component/userdetail/userdetail.component';
  
 
 @NgModule({
@@ -33,8 +34,9 @@ import { AssociateComponent } from './component/associate/associate.component';
     TableComponent,
     FormdesignComponent,
     PopupComponent,
-    ShoesCardComponent,
-    AssociateComponent
+   
+    AssociateComponent,
+    UserdetailComponent
   
   ],
   imports: [
