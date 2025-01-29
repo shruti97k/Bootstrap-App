@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { colorentity } from '../Entity/colorentity';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Customer } from '../Model/Customer';
+import { Customer,Country } from '../Model/Customer';
+//import { Country } from '../Model/Customer';
 
 @Injectable({
   providedIn: 'root'
@@ -29,6 +30,22 @@ export class MasterService {
   }
   GetCustomerByCode(code:any){
     return this.http.get("http://localhost:3000/customer" +code);
+  }
+  GetAssociate(){
+    return this.http.get("http://localhost:3000/associate");
+
+  }
+  GetAssociateByCode(code:any){
+    return this.http.get("http://localhost:3000/associate"+code);
+
+  }
+  GetCountry():Observable<Country[]>{
+    return this.http.get<Country[]>("http://localhost:3000/country");
+
+  }
+  
+  SaveAssociate(data:any,code:any){
+    return this.http.put('http://localhost:3000/associate/'+code,data);
   }
 
 
